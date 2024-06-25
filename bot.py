@@ -37,7 +37,6 @@ bot = TeleBot(TELEGRAM_TOKEN)
 # Initialize Flask app
 app = Flask(__name__)
 
-# Telegram webhook route
 @app.route('/webhook', methods=['POST'])
 def webhook():
     if request.headers.get('content-type') == 'application/json':
@@ -47,6 +46,7 @@ def webhook():
         return '', 200
     else:
         return '', 403
+
 
 # Flask route for a simple landing page
 @app.route('/')
