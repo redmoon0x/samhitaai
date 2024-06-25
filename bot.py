@@ -109,7 +109,7 @@ def handle_audio(message):
 
 if __name__ == "__main__":
     # Set up the webhook
-    webhook_url = 'https://samhitaai.onrender.com/'
+    webhook_url = 'https://samhitaai.onrender.com/webhook'
     bot.remove_webhook()
     bot.set_webhook(url=webhook_url)
     
