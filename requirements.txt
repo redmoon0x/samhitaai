@@ -1,4 +1,4 @@
-google-generativeai# Google AI Python SDK for generative AI models
+google-generativeai # Google AI Python SDK for generative AI models
 Flask               # Web framework for creating web applications
 pyTelegramBotAPI     # Python wrapper for Telegram Bot API
 gtts # Google Text-to-Speech library for text-to-speech conversion
