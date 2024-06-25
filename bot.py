@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Environment variables
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '6307741087:AAEJdKmCnYYmxS2SHt35-bPymQflkraGHp8')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '6226493394:AAEeoJlWJIuiUZ-UQVTElKL0f61BG7_uCOA')
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyCi9VO_ezaweZur7uSpAgQVsWKSRNoDnyc')
 
 # Configure Google AI SDK
